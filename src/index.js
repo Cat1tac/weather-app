@@ -90,4 +90,4 @@ button.addEventListener('click', () => {
     
 });
 
-getweather("Ru");
+getweather("Tokyo");
