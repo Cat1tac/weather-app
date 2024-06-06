@@ -7,7 +7,7 @@ async function getweather(location) {
         load.textContent = "loading...";
         load.classList.add('active');
         
-        const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=7fe2dd66f9624c0c9db55340242805&q=${location}&days=3&aqi=no&alerts=no`, {mode: 'cors'});
+        const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=7fe2dd66f9624c0c9db55340242805&q=${location}&days=3&aqi=no&alerts=no`, {mode: 'cors'});
         const weatherdata = await response.json();
         
         if (weatherdata.error != undefined) {
