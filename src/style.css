@@ -19,10 +19,12 @@ body {
 
 .load {
     visibility: hidden;
+    position: absolute;
 }
 
 .load.active {
     visibility: visible;
+    position: relative
 }
 
 h1 {
