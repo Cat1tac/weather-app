@@ -1,0 +1,92 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(46, 46, 105);
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+    background-color: rgb(31, 31, 83);
+    color: white;
+    
+}
+
+button {
+    width: 50px;
+    height: 23px;
+    border-radius: 5px;
+    background-color: rgb(144, 144, 184);
+    border-color: rgb(144, 144, 184);
+}
+
+#weatherforecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#futureforecast {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#temp {
+    display: flex;
+    gap: 10px;
+}
+
+#hours {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    gap: 10px;
+    justify-content: space-evenly;
+    /*background-color: rgb(31, 82, 158);*/
+    background-color: rgb(69, 69, 168);
+    box-shadow: 5px 5px rgb(63, 63, 129);
+    border: 3px solid rgb(63, 63, 129);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#hours > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#place {
+    margin-top: 20px;
+}
